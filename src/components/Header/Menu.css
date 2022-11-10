@@ -1,0 +1,35 @@
+nav {
+  padding: 2rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav ul li a {
+  padding: 0.5rem 1rem;
+  color: darkcyan;
+  text-decoration: underline;
+  text-decoration-color: darkcyan;
+  border-radius: 10px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+nav ul li a.selected {
+  color: white;
+  text-decoration: none;
+  background-color: darkcyan;
+}

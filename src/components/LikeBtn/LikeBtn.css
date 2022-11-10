@@ -1,0 +1,19 @@
+.like-button {
+  color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.like-button.dislike {
+  border-color: crimson;
+  background-color: crimson;
+}
+
+.like-button.like {
+  border-color: darkcyan;
+  background-color: darkcyan;
+}

@@ -1,0 +1,37 @@
+.rule {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 1.5rem;
+  border: 2px solid darkcyan;
+  border-radius: 5px;
+}
+
+.rule__header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.rule__content {
+  font-style: italic;
+}
+
+.rule__footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rule__action-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rule.dark__container {
+  background-color: #2e2e2e;
+  color: white;
+}
